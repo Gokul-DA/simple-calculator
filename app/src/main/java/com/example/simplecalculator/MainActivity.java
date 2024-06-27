@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setOperatorButtonListeners() {
         int[] operatorButtonIds = {
-                R.id.buttonAdd, R.id.buttonSubtract, R.id.buttonMultiply, R.id.buttonDivide
+                R.id.buttonAdd
         };
 
         View.OnClickListener listener = new View.OnClickListener() {
